@@ -1,6 +1,6 @@
-# Lip Reading Deep Learning Model
+# Visual Speech Recognition Deep Learning Model
 
-This project implements a lip reading deep learning model using TensorFlow. The model is trained on the GridCorpus dataset to recognize spoken words from lip movements. Additionally, it provides a web interface built using HTML, Bootstrap CSS for styling, and Flask as the backend.
+This project implements a Visual Speech Recognition deep learning model using TensorFlow. The model is trained on the GridCorpus dataset to recognize spoken words from lip movements. Additionally, it provides a web interface built using HTML, Bootstrap CSS for styling, and Flask as the backend.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -11,11 +11,11 @@ This project implements a lip reading deep learning model using TensorFlow. The 
 
 ## Introduction
 
-Lip reading is the process of understanding speech by visually interpreting the movements of the lips, jaw, and tongue. It plays a crucial role in scenarios where audio is not available or clear, such as noisy environments or for individuals with hearing impairments. This project aims to develop a deep learning model for lip reading using TensorFlow.
+Visual Speech Recognition is the process of understanding speech by visually interpreting the movements of the lips, jaw, and tongue. It plays a crucial role in scenarios where audio is not available or clear, such as noisy environments or for individuals with hearing impairments. This project aims to develop a deep learning model for Visual Speech Recognition using TensorFlow.
 
-The GridCorpus dataset consists of videos of speakers reciting a fixed set of sentences. Each video includes both the audio and video of the speaker's face. This dataset is commonly used for training lip reading models due to its size and variety of speakers.
+The GridCorpus dataset consists of videos of speakers reciting a fixed set of sentences. Each video includes both the audio and video of the speaker's face. This dataset is commonly used for training Visual Speech Recognition models due to its size and variety of speakers.
 
-The web interface allows users to upload videos containing speech to be processed by the lip reading model. The model then predicts the spoken words based on the lip movements in the video. The interface provides a user-friendly way to interact with the model without requiring any knowledge of machine learning or programming.
+The web interface allows users to upload videos containing speech to be processed by the Visual Speech Recognition model. The model then predicts the spoken words based on the lip movements in the video. The interface provides a user-friendly way to interact with the model without requiring any knowledge of machine learning or programming.
 
 ## Installation
 
