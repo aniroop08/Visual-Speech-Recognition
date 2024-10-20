@@ -1,13 +1,11 @@
 # Visual Speech Recognition
 
 ## Table of Contents
-- [Introduction](#introduction)
+- [Overview](#overview)
 - [Screenshots](#screenshots)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Getting Started](#GettingStarted)
 
-## Introduction
+## Overview
 
 Visual Speech Recognition is the process of understanding speech by visually interpreting the movements of the lips, jaw, and tongue. It plays a crucial role in scenarios where audio is not available or clear, such as noisy environments or for individuals with hearing impairments. This project aims to develop a deep learning model for Visual Speech Recognition using TensorFlow.
 
@@ -24,7 +22,7 @@ The web interface allows users to upload videos containing speech to be processe
 
 ![Annotation 2024-10-20 093000](https://github.com/user-attachments/assets/ab474d2a-d8e8-4e73-8432-4a6b8bb1acd8)
 
-## Installation
+## Getting Started
 
 To run the project locally, follow these steps:
 
@@ -38,27 +36,17 @@ To run the project locally, follow these steps:
    ```bash
    pip install -r requirements.txt
    ```
-
-## Usage
-
-1. Start the Flask server:
+   
+3. Start the Flask server:
    ```bash
    python main.py
    ```
 
-2. Open your web browser and go to `http://localhost:5000`.
+4. Open your web browser and go to `http://localhost:5000`.
 
-3. Choose a video from the dropdown menu.
+5. Choose a video from the dropdown menu.
 
-4. Wait for the model to process the video and display the predicted words.
+6. Wait for the model to process the video and display the predicted words.
 
-## Contributing
 
-Contributions are welcome! If you would like to contribute to this project, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and ensure the code lints without errors.
-4. Commit your changes and push them to your fork.
-5. Submit a pull request with a detailed description of your changes.
 
