@@ -4,10 +4,10 @@ This project implements a Visual Speech Recognition deep learning model using Te
 
 ## Table of Contents
 - [Introduction](#introduction)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -16,6 +16,13 @@ Visual Speech Recognition is the process of understanding speech by visually int
 The GridCorpus dataset consists of videos of speakers reciting a fixed set of sentences. Each video includes both the audio and video of the speaker's face. This dataset is commonly used for training Visual Speech Recognition models due to its size and variety of speakers.
 
 The web interface allows users to upload videos containing speech to be processed by the Visual Speech Recognition model. The model then predicts the spoken words based on the lip movements in the video. The interface provides a user-friendly way to interact with the model without requiring any knowledge of machine learning or programming.
+
+## Screenshots
+![Annotation 2024-10-20 092002](https://github.com/user-attachments/assets/a5edc04d-3f75-4c0b-9b12-6ae30907841c)
+
+![Annotation 2024-10-20 092208](https://github.com/user-attachments/assets/0fea95c1-8c3b-4b73-801f-718df60404f4)
+
+![Annotation 2024-10-20 093000](https://github.com/user-attachments/assets/ab474d2a-d8e8-4e73-8432-4a6b8bb1acd8)
 
 ## Installation
 
@@ -54,3 +61,4 @@ Contributions are welcome! If you would like to contribute to this project, plea
 3. Make your changes and ensure the code lints without errors.
 4. Commit your changes and push them to your fork.
 5. Submit a pull request with a detailed description of your changes.
+
